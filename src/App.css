@@ -11,3 +11,110 @@ body {
 }
 
 /* Add your own custom styles here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightpink;
+}
+nav {
+  display: flex;
+  gap: 2rem;
+}
+span {
+  display: flex;
+  gap: 2rem;
+}
+.app {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+.bookImage {
+  width: 200px;
+  height: 150px;
+}
+.bookDetails {
+  display: flex;
+  gap: 1rem;
+}
+#author {
+  display: flex;
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: bold;
+  color: blueviolet;
+}
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: auto;
+}
+h1 {
+  color: blueviolet;
+}
+.bookItem {
+  background-color: lightyellow;
+}
+#bookLink {
+  align-items: center;
+}
+.bookItem h2 {
+  text-align: center;
+  margin: 1;
+}
+.singleBookDetails {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 1px;
+  text-align: center;
+  font-weight: normal;
+  background-color: lightyellow;
+}
+.singleBookTitle {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  color: cornflowerblue;
+}
+.singleBookAuthor {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  color: blueviolet;
+}
+.singleBookDetails p {
+  margin: auto;
+  padding: 1;
+}
+.singleBookDetails img {
+  height: 300px;
+  width: 250px;
+  align-self: center;
+}
+.account profileHeading {
+  font-size: 2rem;
+  text-align: center;
+}
+.account h4 {
+  font-size: 2rem;
+  text-align: center;
+}
+.account p {
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+.account h5 {
+  text-align: center;
+  font-size: 1rem;
+}
+.account {
+  background-color: lightyellow;
+}
